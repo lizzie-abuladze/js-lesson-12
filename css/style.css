@@ -1,0 +1,49 @@
+.arrow {
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+}
+.arrow:hover {
+  opacity: 0.7;
+}
+.slider-wrapper {
+  position: relative;
+  text-align: center;
+}
+.arrow-right {
+  right: 20px;
+}
+.arrow-left {
+  left: 20px;
+}
+/* .image-el {
+  width: 80%;
+  height: 600px;
+  object-fit: cover;
+  display: flex;
+  margin: 0 auto;
+  
+} */
+.bg-image {
+  width: 90%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  margin: 5% auto;
+}
+body {
+  background-color: #333;
+}
+h2 {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 5px #000000;
+}
